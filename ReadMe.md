@@ -1,5 +1,6 @@
 #TDM1001系列电压电流表上位机
 使用 Python 快速编写的串口上位机软件
+![](https://github.com/harry159821/TDM1001UpMachine/raw/master/shot.png)
 
 ##关于电表
 ####使用串口协议
