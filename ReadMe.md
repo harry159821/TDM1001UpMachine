@@ -27,16 +27,20 @@ TDM1001系列数显表头UART-RS232接口协议V2.1
 ##文件夹说明
 * ExecutableFile
     可运行文件 使用打包 Python 程序的 Py2exe
+
 * Shot  
     程序截图
+
 * SoftEvn 
     源码运行环境安装包
+
 * Source 
     程序源码
 
 ##源码文件说明
 * 核心程序
     UpMachine.py SerialUi.py SerialDev.py
+
 * Py2exe 打包配置文件
     Makefile.py MakeFile.bat
 
