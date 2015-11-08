@@ -1,0 +1,10 @@
+电压设置 10 03 02 XX XX crcL crcH
+电流设置 11 03 02 XX XX crcL crcH
+启动指令 12 03 02 00 00 crcL crcH
+停机指令 13 03 02 00 00 crcL crcH
+状态数据 14 03 02 00 XX crcL crcH
+	00 充电
+	01 放电
+	02 闲置
+	03 待机
+	04 错误
