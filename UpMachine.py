@@ -708,6 +708,7 @@ class MainWindow(QtGui.QMainWindow):
             self.label_2.setText(u'     '+str(data))
             self.lastestGalvanicData += 1
             self.downPlot.setRange(xRange=[self.lastestGalvanicData-30, self.lastestGalvanicData])
+            self.downPlot.clear()
             self.downPlot.plot(pen=self.greenPen).setData(self.galvanicData[:self.lastestGalvanicData])
 
     def updataVoltageData(self,data):       
@@ -716,6 +717,7 @@ class MainWindow(QtGui.QMainWindow):
             self.label.setText(u'     '+str(data))
             self.lastestVoltageData += 1
             self.upPlot.setRange(xRange=[self.lastestVoltageData-30, self.lastestVoltageData])
+            self.upPlot.clear()
             self.upPlot.plot(pen=self.greenPen).setData(self.voltageData[:self.lastestVoltageData])
 
     def update2(self,Data):
@@ -729,6 +731,8 @@ class MainWindow(QtGui.QMainWindow):
         self.upPlot.setRange(xRange=[self.lastestData-30, self.lastestData])
         self.downPlot.setRange(xRange=[self.lastestData-30, self.lastestData])
 
+        self.upPlot.clear()
+        self.downPlot.clear()
         self.upPlot.plot(pen=self.greenPen).setData(self.data[:self.lastestData])
         self.downPlot.plot(pen=self.greenPen).setData(self.data[:self.lastestData])
 
