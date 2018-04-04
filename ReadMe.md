@@ -1,9 +1,10 @@
-#TDM1001系列电压电流表上位机
+TDM1001系列电压电流表上位机
+=======================
+
 使用 Python 快速编写的串口上位机软件
 ![](https://github.com/harry159821/TDM1001UpMachine/raw/master/shot.png)
 
-##关于电表
-####使用串口协议
+# 关于电表串口协议
 TDM1001系列数显表头UART-RS232接口协议V2.1
 
 | 功能           | 发送的串口数据    | 返回值            |
@@ -25,7 +26,7 @@ TDM1001系列数显表头UART-RS232接口协议V2.1
 | 03 | 待机 |
 | 04 | 错误 |
 
-##文件夹说明
+# 文件夹说明
 * ExecutableFile
 
     可运行文件 使用打包 Python 程序的 Py2exe
@@ -42,7 +43,7 @@ TDM1001系列数显表头UART-RS232接口协议V2.1
 
     程序源码
 
-##源码文件说明
+# 源码文件说明
 * 核心程序
 
     UpMachine.py SerialUi.py SerialDev.py
@@ -51,7 +52,7 @@ TDM1001系列数显表头UART-RS232接口协议V2.1
 
     Makefile.py MakeFile.bat
 
-##联系我
+# 联系我
 * https://github.com/harry159821/
 * Mail:harry159821@gmail.com
 * QQ:984405219
